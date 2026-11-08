@@ -1,0 +1,52 @@
+name: Robot Bitcoin fictif
+
+on:
+  schedule:
+    - cron: '7,22,37,52 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: robot-bitcoin
+  cancel-in-progress: false
+
+jobs:
+  simulation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Recuperer le robot
+        uses: actions/checkout@v4
+
+      - name: Installer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Installer les outils
+        run: python -m pip install requests scikit-learn
+
+      - name: Tester le programme
+        run: python robot_papier_24_7.py --test
+
+      - name: Simulation du marche
+        run: python robot_papier_24_7.py --once
+
+      - name: Sauvegarder les resultats
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          for f in etat_robot_24_7.json journal_robot_24_7.csv historique_bougies_15min.csv bilan_robot_24_7.txt; do
+            if [ -f "$f" ]; then
+              git add "$f"
+            fi
+          done
+
+          if ! git diff --cached --quiet; then
+            git commit -m "Sauvegarde simulation fictive"
+            git push
+          fi
