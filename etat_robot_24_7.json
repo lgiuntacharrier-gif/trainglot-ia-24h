@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "debut": "2026-11-08 12:13:33 UTC",
+  "last_bar": 1794138300,
+  "last_model_time": 1794140014.0030892,
+  "modele_validation": "precision 53.8%, reference majoritaire 50.3% (historique court)",
+  "erreurs": 0,
+  "portefeuilles": {
+    "ia": {
+      "euros": 500.0,
+      "bitcoin": 0.0,
+      "frais_cumules": 0.0,
+      "achats": 0,
+      "ventes": 0,
+      "pic": 500.0,
+      "perte_max": 0.0,
+      "derniere_bougie_trajet": -10000000000,
+      "bloque": false
+    },
+    "tendance": {
+      "euros": 500.0,
+      "bitcoin": 0.0,
+      "frais_cumules": 0.0,
+      "achats": 0,
+      "ventes": 0,
+      "pic": 500.0,
+      "perte_max": 0.0,
+      "derniere_bougie_trajet": -10000000000,
+      "bloque": false
+    },
+    "cassure": {
+      "euros": 500.0,
+      "bitcoin": 0.0,
+      "frais_cumules": 0.0,
+      "achats": 0,
+      "ventes": 0,
+      "pic": 500.0,
+      "perte_max": 0.0,
+      "derniere_bougie_trajet": -10000000000,
+      "bloque": false
+    },
+    "conservation_30": {
+      "euros": 350.0,
+      "bitcoin": 0.002198895267093865,
+      "frais_cumules": 0.15,
+      "achats": 1,
+      "ventes": 0,
+      "pic": 500.0,
+      "perte_max": 0.08989506746627285,
+      "derniere_bougie_trajet": 1794138300,
+      "bloque": false
+    },
+    "conservation_100": {
+      "euros": 0.0,
+      "bitcoin": 0.007329650890312884,
+      "frais_cumules": 0.5,
+      "achats": 1,
+      "ventes": 0,
+      "pic": 500.0,
+      "perte_max": 0.29965022488753446,
+      "derniere_bougie_trajet": 1794138300,
+      "bloque": false
+    }
+  }
+}
