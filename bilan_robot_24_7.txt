@@ -1,18 +1,18 @@
 ROBOT BTC/EUR - SIMULATION 24 H / 24
 AUCUN ORDRE REEL
 Debut: 2026-11-08 12:13:33 UTC
-Derniere mise a jour: 2026-11-08 21:57:29 UTC
-Dernier prix: 66,578.20 EUR
+Derniere mise a jour: 2026-11-09 01:39:06 UTC
+Dernier prix: 67,083.90 EUR
 Capital initial : 500 EUR FICTIFS PAR STRATEGIE
 Frais: 0.10% / cote ; glissement: 0.05% / cote
 Evaluation sur prix de liquidation (frais de sortie inclus).
-IA : precision 49.3%, reference majoritaire 50.7% (historique court)
+IA : precision 51.6%, reference majoritaire 51.6% (historique court)
 
 ia                   500.00 EUR  P/L    +0.00 EUR  achats   0 ventes   0  frais   0.00  drawdown  0.00% 
 tendance             500.00 EUR  P/L    +0.00 EUR  achats   0 ventes   0  frais   0.00  drawdown  0.00% 
 cassure              500.00 EUR  P/L    +0.00 EUR  achats   0 ventes   0  frais   0.00  drawdown  0.00% 
-conservation_30      496.18 EUR  P/L    -3.82 EUR  achats   1 ventes   0  frais   0.15  drawdown  0.76% 
-conservation_100     487.26 EUR  P/L   -12.74 EUR  achats   1 ventes   0  frais   0.50  drawdown  2.55% 
+conservation_30      497.29 EUR  P/L    -2.71 EUR  achats   1 ventes   0  frais   0.15  drawdown  0.76% 
+conservation_100     490.96 EUR  P/L    -9.04 EUR  achats   1 ventes   0  frais   0.50  drawdown  2.55% 
 
 Le meilleur score affiche n'est PAS une preuve de rentabilite future.
 Ne pas choisir une methode sur une seule semaine ou quelques transactions.
