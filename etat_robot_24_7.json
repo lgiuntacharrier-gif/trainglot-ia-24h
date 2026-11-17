@@ -1,9 +1,9 @@
 {
   "version": 1,
   "debut": "2026-11-08 12:13:33 UTC",
-  "last_bar": 1794901500,
-  "last_model_time": 1794902804.6431623,
-  "modele_validation": "precision 54.1%, reference majoritaire 53.0% (historique court)",
+  "last_bar": 1794935700,
+  "last_model_time": 1794936963.8684273,
+  "modele_validation": "precision 52.9%, reference majoritaire 53.1% (historique court)",
   "erreurs": 0,
   "portefeuilles": {
     "ia": {
@@ -46,7 +46,7 @@
       "achats": 1,
       "ventes": 0,
       "pic": 500.0,
-      "perte_max": 4.423786006330954,
+      "perte_max": 4.616339953004262,
       "derniere_bougie_trajet": 1794138300,
       "bloque": false
     },
@@ -57,7 +57,7 @@
       "achats": 1,
       "ventes": 0,
       "pic": 500.0,
-      "perte_max": 14.745953354436505,
+      "perte_max": 15.38779984334751,
       "derniere_bougie_trajet": 1794138300,
       "bloque": false
     }
