@@ -1,9 +1,9 @@
 {
   "version": 1,
   "debut": "2026-11-08 12:13:33 UTC",
-  "last_bar": 1795059900,
-  "last_model_time": 1795061199.2170947,
-  "modele_validation": "precision 53.4%, reference majoritaire 52.2% (historique court)",
+  "last_bar": 1795091400,
+  "last_model_time": 1795092981.2328393,
+  "modele_validation": "precision 52.8%, reference majoritaire 52.2% (historique court)",
   "erreurs": 0,
   "portefeuilles": {
     "ia": {
@@ -18,14 +18,14 @@
       "bloque": false
     },
     "tendance": {
-      "euros": 495.1173162104295,
-      "bitcoin": 0.0,
-      "frais_cumules": 0.595832238648904,
-      "achats": 2,
+      "euros": 346.5821213473007,
+      "bitcoin": 0.0025546587745313115,
+      "frais_cumules": 0.7443674335120328,
+      "achats": 3,
       "ventes": 2,
       "pic": 502.1515451553978,
-      "perte_max": 1.400817942876475,
-      "derniere_bougie_trajet": 1795018500,
+      "perte_max": 1.4894537441079059,
+      "derniere_bougie_trajet": 1795091400,
       "bloque": false
     },
     "cassure": {
