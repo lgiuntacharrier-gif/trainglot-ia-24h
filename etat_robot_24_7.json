@@ -1,9 +1,9 @@
 {
   "version": 1,
   "debut": "2026-11-08 12:13:33 UTC",
-  "last_bar": 1795661100,
-  "last_model_time": 1795662843.4241571,
-  "modele_validation": "precision 51.2%, reference majoritaire 52.3% (historique court)",
+  "last_bar": 1795696200,
+  "last_model_time": 1795697517.584494,
+  "modele_validation": "precision 50.7%, reference majoritaire 52.0% (historique court)",
   "erreurs": 0,
   "portefeuilles": {
     "ia": {
